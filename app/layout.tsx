@@ -1,4 +1,6 @@
 import './globals.css'
+import styles from './page.module.css'
+import 'animate.css'
 
 export default function RootLayout({
   children,
@@ -13,7 +15,7 @@ export default function RootLayout({
       */}
       <head />
       <body>
-        <nav>
+        <nav className={styles.nav}>
           <h1>My navbar</h1>
         </nav>
         {children}

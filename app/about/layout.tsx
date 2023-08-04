@@ -1,4 +1,5 @@
 import React from 'react'
+import styles from './style.module.css'
 
 export default function AboutLayout({
   children,
@@ -7,8 +8,8 @@ export default function AboutLayout({
 }) {
   return (
     <div>
-      <nav>AboutNavBar</nav>
-      <main>{children}</main>
+      <nav className={styles.nav}>AboutNavBar</nav>
+      <main className={styles.main}>{children}</main>
     </div>
   )
 }

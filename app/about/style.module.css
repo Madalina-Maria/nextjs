@@ -1,0 +1,14 @@
+.main {
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  background-color: #333;
+}
+
+.nav {
+  background-color: darkgray;
+  color: black;
+  text-align: center;
+  place-items: center;
+  height: 50px;
+}
