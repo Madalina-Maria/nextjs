@@ -12,6 +12,9 @@ export default function Home() {
       <Link href={'/about'} className={styles.link}>
         Link from about page
       </Link>
+      <Link href={'/users'} className={styles.link}>
+        Users
+      </Link>
     </main>
   )
 }
